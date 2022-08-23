@@ -1,0 +1,55 @@
+.imagedistrubuter{
+    width: 450px;
+    height: 400px;
+    margin: 60px;
+    
+    
+}
+.distributefulldiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.techreference{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picturesdistributediv{
+   /* border: 2px solid yellow !important; */
+   margin-top: 30px;
+  display: flex;
+  justify-content: space-around; 
+  
+  
+}
+.picturepic21{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+   
+    -o-transition: all .5s ease 0s;
+    
+}
+.picturepic22{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    
+}
+.piclinktextdistribute{
+    /* border: solid yellow; */
+    padding-right: 20px !important;
+}
+.Textattraction{
+      text-align: justify;
+      font-size: 18px;
+      line-height: 30px;
+
+}
+.distributespicmain{
+    width: fit-content;
+}

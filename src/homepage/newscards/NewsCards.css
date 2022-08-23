@@ -1,0 +1,65 @@
+.headingnewscardsdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.newscardsournewsheading{
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.pic1newscards{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.newscardspicdiv {
+    height: 200px; 
+    overflow: hidden; 
+  }
+  
+  
+  .newscardspicdiv .pic1newscards {
+    transition: transform .5s ease;
+  }
+  
+  
+  .newscardspicdiv:hover .pic1newscards {
+    transform: scale(1.5);
+  }
+  .btnheadingnewscards{
+        font-weight: bold;
+        border-color: #00000052 !important;
+        border-radius: 0px !important;
+        background-color: #71ca71b6 !important;
+        padding: 17px 20px;
+        min-width: 256px;
+        margin-top: 20px;
+  
+  }
+  .pic1newscards{
+
+  }
+  .btnheadingnewscards:hover{
+    color: white;
+    background-color: #053005e5 !important;
+  }
+  .onlyforfloatbtnallnews{
+      display: flex;
+      justify-content: right;
+  }
+  .learnmorenewscardsdiv{
+      display: flex;
+      justify-content:left;
+      
+  }
+  .learnmoretextnewscardsdiv{
+      padding-left: 10px ;
+ }
+ .learnmorenewscardsdiv:hover{
+     color: green;
+ }
+  .cardsheadingnewscards:hover{
+      color: green;
+
+  }

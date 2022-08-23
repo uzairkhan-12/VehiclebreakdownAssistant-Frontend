@@ -1,38 +1,35 @@
-.App {
+.form-container{
+  position : absolute,;
+  /* margin-top : 1vh; */
+  padding: 30px;
+  background-color:#fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  background-size: 200%;
+}
+.registerLink{
+  float: right;
+  font-family: sans-serif;
+ 
+}
+.forgotPass{
+  font-family: sans-serif;
+  margin-top: 10vh;
+  
+}
+.paragraphOr{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width : 678px){
+  .bg{
+    background-size: 300%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.singInH5{
+  text-align: center;
 }

@@ -1,0 +1,105 @@
+.footerrowfulldiv {
+    background-color: black;
+}
+
+.linkdivallfooter {
+    color: white;
+ 
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.divallfooter {
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.linkdivallfooter:hover {
+    color: green;
+}
+
+.writingdiv {
+    color: white;
+    font-size: 20px;
+    background-color: rgb(70, 64, 64);
+}
+
+.divbtntran {
+    border-color: #00000052 !important;
+    border-radius: 0px !important;
+    background-color: #71ca71b6 !important;
+    /* padding: 17px 20px; */
+    /* min-width: 256px; */
+    border-radius: 20px !important;
+
+}
+
+.divbtntran:hover {
+    /* width: 100% !important; */
+    background-color: #053005e5 !important;
+    color: white;
+}
+
+.footercopyrighttext {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo {
+    width: 28px;
+    margin-top: 15px;
+}
+
+.custom_mini_footer {
+    background-color: #131921 !important;
+}
+
+.instagram {
+    color: green;
+    margin-left: 18px;
+    font-size: 34px;
+}
+
+.facebok {
+    color: green;
+    margin-left: 18px;
+    font-size: 28px;
+}
+.twitter{
+    color: green;
+    margin-left: 18px;
+    font-size: 28px;
+}
+.linkdin{
+    color: green;
+    margin-left: 18px;
+    font-size: 28px;
+}
+.copy_right{
+    margin-top: 20px;
+  
+    color:white;
+}
+@media only screen and (max-width: 630px ) {
+     .smallscreen{
+      text-align: center !important;
+    }
+  }
+  .logo_width{
+    width: 38px !important;
+  }
+  .insta{
+    font-size: 35px;
+    color: green;
+  }
+  .linkedin{
+      font-size: 29px;
+      color: green;
+  }
+  .fot__{
+
+  background-color: #131921;
+  }

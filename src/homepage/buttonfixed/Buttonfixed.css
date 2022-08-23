@@ -1,0 +1,16 @@
+.buttonfixedbtndivbtn{
+    background-color: green;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttonfixedbtndivbtn:hover{
+    background-color: rgb(97, 124, 69);
+    box-shadow: 3px 3px 8px 5px #888888;
+}
